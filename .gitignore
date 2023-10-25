@@ -1,0 +1,14 @@
+tests
+composer 2.json
+phpstan.neon
+phpunit.xml
+README1.md
+composer.lock
+vendor/
+.idea/
+.phpunit.result.cache
+tests
+helpers1.php
+.DS_Store
+*/.DS_Store
+src/Pecee
