@@ -1,47 +1,16 @@
 {
-  "name": "tabriz/rouder",
-  "description": "",
-  "keywords": [
-    "router",
-    "rouder",
-    "routing",
-    "route",
-    "php-rouder",
-    "laravel",
-    "tabriz",
-    "php",
-    "framework",
-    "url-handling",
-    "input-handler",
-    "routing-engine",
-    "request-handler"
-  ],
-  "license": "MIT",
-  "support": {
-    "source": "https://github.com/javadamin1/router-rouder/issues"
-  },
-  "authors": [
-    {
-      "name": "Javad Fathi",
-      "email": "javadamin93@gmail.com"
+    "name": "mrdeveloper/router",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "vendor/Sam/Router",
+            "Middlewares\\": "app/Middlewares"
+        }
     },
-    {
-      "name": "Amir Sadati",
-      "email": ""
-    }
-  ],
-  "require": {
-    "php": ">=7.4",
-    "ext-json": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "ُTabriz\\": "src/Tabriz/"
-    }
-  },
-  "config": {
-    "allow-plugins": {
-      "ocramius/package-versions": true
-    }
-  }
+    "authors": [
+        {
+            "name": "Amir",
+            "email": "amir.siyanoor@gmail.com"
+        }
+    ],
+    "require": {}
 }
